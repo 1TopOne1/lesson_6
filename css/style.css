@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,300&family=Philosopher:ital,wght@0,700;1,400&family=Roboto:ital,wght@1,300&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	background-color: rgb(231, 227, 227);
+}
+
+.content {
+	width: 810px;
+	margin: 0 auto;
+	font-size: 16px;
+	text-align: left;
+	font-family: "lato";
+	font-style: normal;
+
+
+
+}
+
+h1 {
+
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin-bottom: 50px;
+	text-shadow: 1px 2px 2px rgb(7, 7, 6);
+}
+
+.image {
+	border-radius: 4px;
+	margin-bottom: 60px;
+	border: 1px solid black;
+}
+
+.text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+
+.block {
+	line-height: 26px;
+
+	text-shadow: 1px 2px 3px gray;
+	margin-bottom: 48px;
+
+}
+
+.text-2 {
+	margin-bottom: 26px;
+
+}
+
+
+.bold {
+	padding-left: 58px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+	margin-bottom: 48px;
+}
+
+.bold-2 {
+	padding-left: 26px;
+	line-height: 26px;
+	color: #424551;
+	margin-bottom: 24px;
+}
+
+.list {
+	color: #424551;
+	line-height: 26px;
+	padding-left: 40px;
+	margin-bottom: 24px;
+
+}
+
+.last {
+	color: #424551;
+	line-height: 26px;
+
+}
+
+.example {
+	font-size: 20px;
+	font-family: "Roboto";
+	margin: 50px;
+}
+
+.section {
+	background-color: rgb(152, 152, 236);
+	border-radius: 30% 70% 80% 20% / 30% 30% 70% 70%;
+	width: 485px;
+	height: 485px;
+	overflow: hidden;
+}
+
+.image2 {
+	padding-left: 40px;
+	border-radius: 48% 52% 19% 81% / 34% 24% 76% 66%;
+	min-width: 285px;
+	min-height: 285px;
+
+}
+
+.image3 {
+	border-radius: 87% 13% 29% 71% / 26% 57% 43% 74%;
+	min-width: 285px;
+	min-height: 285px;
+
+}
+
+a {
+	margin: 0px 15px;
+	font-family: "Roboto";
+	font-size: 50px;
+	border-top: 5px solid rgb(45, 57, 58);
+	border-right: 5px dotted rgb(122, 24, 96);
+	border-bottom: 5px double rgb(109, 72, 168);
+	border-left: 5px dashed rgb(138, 138, 1);
+}
+
+
+
+.circle {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: brown;
+	box-shadow: inset 5px 5px 5px 2px rgba(0, 0, 0, 0.589);
+
+
+}
+
+.circle2 {
+	width: 150px;
+	height: 150px;
+	background-color: brown;
+	box-shadow: inset 5px 5px 5px 2px black;
+}
+
+.section2 {
+	background-color: bisque;
+	margin: 15px;
+	padding: 15px;
+	box-shadow: 2px 2px 7px 5px black;
+	text-shadow: 1px 2px 1px black;
+}
+
+.section3 {
+	background-color: rgb(145, 240, 242);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	outline-style: dashed;
+	outline-color: rgb(79, 79, 166);
+	visibility: hidden;
+	margin-bottom: 30px;
+}
+.section4{	
+	margin: 15px;
+	padding: 15px;
+	background-color:#424551;
+	border-radius: 30px;
+	color: yellow;
+	box-shadow: 2px 2px 7px 5px yellow;
+
+
+
+
+
+}
